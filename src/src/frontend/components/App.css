@@ -1,0 +1,450 @@
+.App {
+  text-align: center;
+  justify-content:center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.g-4, .gx-4 {
+  --bs-gutter-x: -0.5rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.theme-primary{
+  background-color: #3498db;
+}
+
+a.button.nav-button.btn-sm.mx-4.nav-link {
+  text-align: center;
+  margin-left: 12px !important;
+}
+
+.btn-outline-light {
+  border: solid 2px white;
+  color: #f8f9fa;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.55);
+  color: white;
+  font-family: fantasy;
+  font-size: 18px;
+  background-color: inherit;
+}
+
+a.nav-link {
+  font-weight: 400;
+  box-shadow: -2px 2px 5px white;
+}
+
+.me-auto.navbar-nav {
+  text-transform: uppercase;
+}
+
+a.navbar-brand {
+  font-weight: 600;
+  font-size: 30px;
+  font-family: fantasy;
+}
+
+@media (min-width: 768px){
+.navbar-expand-md .navbar-nav {
+    flex-direction: row;
+    margin-right: -100px;
+}
+div#responsive-navbar-nav {
+  margin-left: 6rem;
+}
+}
+
+.navbar-nav {
+  margin-right: -21px;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h1.page-title {
+  /* color: blue; */
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+p.mx-3.my-0 {
+  font-style: oblique;
+}
+
+@media (min-width: 768px){
+.navbar-expand-md .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    margin-left: 160px;
+}
+h1.page-title {
+  width: 600px !important;
+}
+
+.spinner-border {
+  margin-top: -5px;
+}
+button.connect-mobile.btn.btn-outline-light {
+    display:none;
+}
+
+.overflow-hidden.col {
+  width: 30%;
+}
+
+}
+
+@media (max-width: 768px){
+  .spinner-border {
+    padding-left: 22px;
+    padding-bottom: -77px;
+    position: absolute;
+    left: 26px;
+    top: 344px;
+    z-index: -1;
+    
+}
+#root > div.App > div > div.container-fluid.mt-5 > div > main > div > div > p
+{
+  left: -29.5% !important;
+  top: 74% !important;
+  font-size: 17px !important;
+}
+
+h1.page-title {
+  width: 350px !important;
+}
+
+button.btn.btn-outline-light {
+  padding: 10px 19px;
+  font-size: 14.7px !important;
+  font-weight: normal;
+}
+
+p.mx-3.my-0 {
+  font-style: oblique;
+  position: absolute;
+  left: 12px;
+  top: 350px;
+  z-index: -1;
+}
+.mx-3 {
+  margin-right: 1rem !important;
+  margin-left: 3.6rem !important;
+}
+
+.navbar-nav {
+  /* box-shadow: -2px 2px 11px white; */
+  width: 100%;
+}
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0.55);
+  box-shadow: -2px 2px 5px white;
+  border: 2px solid white;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+}
+}
+
+button.btn.btn-outline-light {
+  text-transform: uppercase;
+  font-family: fantasy;
+  font-size: 18px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: rgba(255, 255, 255, 0.75);
+    color: #000;
+    background-color: white !important;
+    border-color: #f8f9fa;
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+  color: rgba(255, 255, 255, 0.75);
+  color: #000;
+  background-color: inherit;
+  border-color: #f8f9fa;
+}
+
+button.connect-mobile.btn.btn-outline-light {
+  border: 2px solid white;
+  color: black;
+  box-shadow: -2px 2px 5px #0d6efd;
+}
+button.connect-mobile.btn.btn-outline-light:hover {
+  color: white;
+  background-color:#0d6efd;
+}
+
+.connect-mobile {
+  margin-top: 13px;
+  margin-left: -1rem;
+}
+
+a.button.nav-button.btn-sm.mx-4.nav-link {
+  text-align: center;
+  margin-left: 0 !important;
+  width: 100%;
+}
+
+
+.card-footer:last-child {
+  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+  padding: 0;
+  background: #0d6efd;;
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: fantasy;
+  font-size: large;
+  color: #504d4d;
+}
+
+.overflow-hidden.col {
+  border-radius: 9px;
+  box-shadow: -2px 2px 20px #0d6efd;
+  border: -17px solid #f9fafb;
+}
+
+img.card-img-top {
+  min-height: 200px;
+  max-height: 200px;
+}
+
+img.card-img-top {
+  border-bottom: 3px solid blue;
+}
+
+.g-4.py-5.row.row-cols-lg-4.row-cols-md-2.row-cols-1 {
+  justify-content: space-between !important;
+}
+
+
+.col-md-8 {
+    margin-top: 5rem !important;
+}
+
+.table-dark {
+  --bs-table-bg: #3498db;
+}
+
+tr {
+    border: 3px solid;
+    border-color: #3498db;
+}
+.table-bordered > :not(caption) > * > * {
+  border-width: 2px 2px;
+}
+
+table.table.table-bordered {
+  box-shadow: -2px 2px 8px #0d6efd;
+}
+
+button.btn.btn-primary.btn-lg {
+  padding: 4px 14px;
+}
+
+h1.page-title {
+  margin: auto;
+  width: fit-content;
+  background: #3498db;
+  text-decoration: none;
+  color:white;
+}
+
+.form-control-lg {
+  min-height: calc(1.5em + 1rem + 2px);
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-family: fantasy;
+  border-radius: 0.3rem;
+}
+
+.form-control[type=file] {
+  overflow: hidden;
+  font-family: fantasy;
+}
+
+h1.page-title {
+    font-family: fantasy;
+    margin-top: 50px;
+    font-size: 2rem;
+    padding: 7px 10% !important;
+    box-shadow: -2px 2px 5px #0d6efd;
+}
+
+input.form-control {
+  box-shadow: -2px 2px 5px #0d6efd;
+}
+textarea.form-control-lg {
+  min-height: calc(1.5em + 1rem + 2px);
+  box-shadow: -2px 2px 5px #0d6efd;
+}
+
+button.btn.btn-primary.btn-lg {
+  padding: 4px 14px;
+  font-family: fantasy;
+  font-size: 25px;
+  box-shadow: -2px 2px 5px #0d6efd;
+}
+
+.approve, .disapprove{
+  box-shadow: 0 0 0 transparent !important;
+}
+button.btn-success.btn.btn-primary {
+  width: 100px;
+}
+
+.copyright-tag {
+  font-family: fantasy;
+  font-size: 20px;
+  color: white;
+  background: #3498db;;
+  padding: 21px 0;
+  text-align: center;
+  justify-content: center;
+  margin-top: 300px;
+}
+a > button.btn.btn-outline-light {
+  background: transparent;
+  /* background: white; */
+  outline: none;
+  /* border: none; */
+  /* padding: 0; */
+}
+button.btn.btn-outline-light {
+  background: transparent;
+  outline: none;
+  box-shadow: -2px 2px 5px white;
+}
+button.btn.btn-outline-light:hover {
+  background: white;
+  outline: none;
+}
+
+button.btn.btn-primary.btn-connect {
+  background: transparent;
+    border: 2px solid white;
+    font-family: fantasy;
+    text-transform: uppercase;
+    font-size: 20px;
+    box-shadow: -2px 2px 5px white;
+}
+button.btn.btn-primary.btn-connect:hover {
+  background: white;
+  color: #000;
+}
+a.button.nav-button.btn-sm.mx-4.nav-li.active {
+  box-shadow: 0 0 0 transparent;
+}
+
+#responsive-navbar-nav > div:nth-child(2) > a {
+  box-shadow: 0 0 0 transparent;
+}
+
+.overflow-hidden.col {
+  margin-bottom: 35px;
+}
+
+img.card-img-top {
+  min-height: 300px;
+  max-height: 300px;
+}
+
+th {
+  font-family: sans-serif;
+}
+#responsive-navbar-nav > div:nth-child(2) > a:hover {
+  background: transparent !important;
+  box-shadow: 0 0 0 transparent;
+}
+.visible{
+  display:block !important;
+}
+#responsive-navbar-nav > div.me-auto.navbar-nav > a:nth-child(6){
+  color:#000;
+}
+#responsive-navbar-nav > div.me-auto.navbar-nav > a:nth-child(6):hover{
+  color:white;
+  background-color:#000 !important;
+}
+
+footer#footer-Section {
+  width: 100% !important;
+  /* position: absolute; */
+}
+
+th, td {
+    white-space: nowrap;
+}
+button.btn-info.btn.btn-primary {
+  width: max-content;
+}
+button.btn-success.btn.btn-primary {
+  width: 100%;
+}
+h1.page-title {
+  white-space: nowrap;
+}
+button.btn.btn-primary.btn-lg {
+  font-size: 20px;
+}
+button.btn-success.disapprove.btn.btn-primary.btn-lg {
+  text-transform: uppercase;
+}
+#root > div.App > div > div.container-fluid.mt-5 > div > main > div > div > p {
+  font-size: 20px;
+  position: absolute;
+  left: -19.9%;
+  top: 54%;
+  font-family: fantasy;
+  margin-top: 32px !important;
+  color: #212529 !important;
+}
+
+.mt-5 {
+  margin-top: 8rem !important;
+}
+
+
